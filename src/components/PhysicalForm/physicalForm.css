@@ -1,0 +1,51 @@
+.physicalForm {
+  padding-top: 50px;
+}
+.physicalForm__container {
+  display: flex;
+  justify-content: space-between;
+}
+.physicalForm__userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.physicalForm__name {
+  display: flex;
+  gap: 20px;
+}
+.physicalForm__company div input, .physicalForm__email div input, .physicalForm__phone div input, .physicalForm__country div input, .physicalForm__address div input {
+  width: 420px;
+}
+.physicalForm__details {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.physicalForm__city {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 576px) {
+  .physicalForm__container {
+    align-items: normal;
+  }
+  .physicalForm__name {
+    flex-direction: column;
+    gap: 33px;
+  }
+  .physicalForm__city {
+    flex-direction: column;
+    gap: 33px;
+  }
+  .physicalForm__company div input, .physicalForm__email div input, .physicalForm__phone div input, .physicalForm__country div input, .physicalForm__address div input {
+    max-width: 100%;
+    width: auto;
+  }
+  .inputForm__input {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=physicalForm.css.map */

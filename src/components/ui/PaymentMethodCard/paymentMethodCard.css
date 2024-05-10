@@ -1,0 +1,37 @@
+.paymentMethod__card {
+  width: 170px;
+  background: #c6d0f6;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.paymentMethod__card:hover {
+  background: #cfadff;
+}
+.paymentMethod__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  height: 50px;
+  gap: 27px;
+}
+.paymentMethod__name svg {
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+.paymentMethod__card-icon {
+  width: 30px;
+  height: 30px;
+}
+.paymentMethod__card-title {
+  font-size: 21px;
+  color: white;
+}
+.paymentMethod__card-description {
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=paymentMethodCard.css.map */

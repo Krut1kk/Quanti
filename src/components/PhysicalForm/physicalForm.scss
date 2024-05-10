@@ -1,0 +1,79 @@
+
+//efefef
+.physicalForm {
+  padding-top: 50px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__userDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  &__name {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__company div input,  &__email div input, &__phone div input, &__country div input, &__address div input {
+    width: 420px;
+  }
+
+
+  &__phone {
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  &__country {
+  }
+
+  &__city {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__address {
+  }
+
+  &__index {
+  }
+}
+
+@media (max-width: 576px) {
+  .physicalForm{
+    &__container{
+      align-items: normal;
+    }
+
+    &__name{
+      flex-direction: column;
+      gap: 33px;
+    }
+
+    &__city{
+      flex-direction: column;
+      gap: 33px;
+    }
+  }
+
+  .physicalForm__company div input, .physicalForm__email div input, .physicalForm__phone div input, .physicalForm__country div input, .physicalForm__address div input {
+    max-width: 100%;
+    width: auto;
+  }
+
+  .inputForm{
+    &__input{
+      max-width: 100%;
+      width: auto;
+    }
+  }
+
+}

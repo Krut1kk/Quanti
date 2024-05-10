@@ -1,0 +1,48 @@
+.typesOfAssistance {
+  &__title {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 14px;
+    padding-left: 40px;
+
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 42px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .typesOfAssistance{
+    &__cards {
+      justify-content: center;
+      gap: 70px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .typesOfAssistance{
+    &__cards {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .typesOfAssistance{
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    &__card {
+      justify-content: center;
+    }
+  }
+}

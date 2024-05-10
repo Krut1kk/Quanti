@@ -1,0 +1,42 @@
+.paymentMethod {
+  &__card {
+    width: 170px;
+    background: #c6d0f6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover {
+      background: #cfadff;
+    }
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    height: 50px;
+    gap: 27px;
+
+    & svg {
+      color: white;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__card-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__card-title {
+    font-size: 21px;
+    color: white;
+  }
+
+  &__card-description {
+    text-align: center;
+    color: white;
+  }
+}

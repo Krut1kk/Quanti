@@ -1,0 +1,82 @@
+.credit-card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  background: #c6d0f6;
+  border-radius: 16px;
+}
+.credit-card-form form {
+  width: 390px;
+  padding: 20px 33px 20px 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+}
+.credit-card-form form .card-number {
+  width: 100%;
+}
+.credit-card-form form .card-number input {
+  width: 100%;
+}
+.credit-card-form form .expiration-date {
+  width: 30%;
+}
+.credit-card-form form .expiration-date input {
+  width: 100%;
+}
+.credit-card-form form .cvv {
+  width: 30%;
+}
+.credit-card-form form .cvv input {
+  width: 100%;
+}
+.credit-card-form form button {
+  margin-top: 10px;
+}
+
+.form-group {
+  width: 100%;
+}
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.form-group__number {
+  margin-top: 6px;
+  background: white;
+}
+
+.form-group__data {
+  padding-top: 30px;
+  display: flex;
+  gap: 64px;
+}
+.form-group__data input {
+  margin-top: 6px;
+  width: 131px;
+}
+.form-group__data .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .credit-card-form form {
+    max-width: 100%;
+    padding: 15px;
+    flex-direction: column;
+  }
+  .form-group__data input {
+    width: 100%;
+  }
+  .form-group__data {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=creditCardForm.css.map */

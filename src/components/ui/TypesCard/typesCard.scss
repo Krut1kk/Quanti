@@ -1,0 +1,30 @@
+.typesOfAssistance {
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  &__icon {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    transition: 0.3s;
+    color: #c6d0f6;
+
+    &:hover {
+      background: #cfadff;
+      color: white;
+    }
+
+    & svg {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+  }
+}

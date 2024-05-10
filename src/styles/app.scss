@@ -1,0 +1,44 @@
+@import "null";
+@import "fonts";
+
+body {
+  font-family: 'Geometria'; ;
+  background: #e5e5e5;
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.formsContainer {
+  padding-left: 70px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1200px) {
+  .formsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .physicalForm {
+      &__container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 33px;
+      }
+  }
+}
+
+@media (max-width: 1200px) {
+  .formsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

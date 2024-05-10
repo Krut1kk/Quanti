@@ -1,0 +1,17 @@
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.inputForm__input {
+  padding: 12px 20px;
+  width: 200px;
+  background: #c6d0f6;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.inputForm__input:hover {
+  background: #cfadff;
+}
+
+/*# sourceMappingURL=inputForm.css.map */

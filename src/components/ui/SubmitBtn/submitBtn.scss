@@ -1,0 +1,16 @@
+.submitBtn {
+  padding: 50px 78px 74px 0;
+  &__container {
+    display: flex;
+    justify-content: center;
+
+    & button {
+      font-size: 21px;
+      color: white;
+      padding: 17px 97px;
+      border-radius: 10px;
+      background: rgb(175, 14, 14);
+      background: linear-gradient(90deg, rgb(175, 14, 14) 38%, rgb(0, 18, 255) 100%);
+    }
+  }
+}
